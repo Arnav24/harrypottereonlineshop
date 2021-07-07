@@ -231,3 +231,134 @@
 .keypoint .key_container .key_img img{
 	width: 240px; 
 }
+.testi{
+	background: transparent;
+	padding:50px;
+}
+.testi h2{
+	font-size: 35px;
+	text-align: center;
+	padding:10px;
+	font-family:  cosmic,sans-serif;
+	text-transform: uppercase;
+
+}
+.testi .testi_container{
+	margin-right: 10%
+	margin-left:10%;
+	text-align: center;
+
+}
+
+.testi .testi_container .item{
+	width: 100%;
+	padding:20px
+	background-color:white;box-shadow: none;
+	padding-bottom: 20px;
+}
+.testi .testi_container .item .item_img{
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	overflow: hidden;
+
+
+}
+.testi .testi_container .item .item_img img{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+
+.testi .testi_container  .key_content{
+	width: 40%;
+	padding:20px;
+	float: left;
+
+}
+
+.testi .testi_container  .key_content li{
+	list-style: none;
+	margin: 10px;
+	padding:10px;
+	border-left: 2px solid orange;
+	color: black;
+	text-align: left;
+	font-family: cosmic,sans-serif;
+	box-shadow: 0px 3px 65px 0px rgb(0,0,0,.15);
+
+
+
+}
+footer{
+	background-color: #99A3A4;
+	padding:50px;
+}
+footer .pages{
+	text-align: center;
+}
+footer .pages h3{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding:5px;
+}
+footer .pages a{
+	text-decoration: none;
+	margin:10px;
+	color: orange;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+
+
+}
+footer .pages a:hover{
+	color: white;
+}footer .doc{
+	text-align: center;
+}
+footer .doc h3{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding:5px;
+}
+footer .doc a{
+	text-decoration: none;
+	margin:10px;
+	color: orange;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+
+
+}
+footer .doc a:hover{
+	color: white;
+}footer .social{
+	text-align: center;
+}
+footer .social h3{
+	color: black;
+	font-size: 20px;
+	font-family: cosmic,sans-serif;
+	padding:5px;
+}
+footer .social a{
+	text-decoration: none;
+	margin:10px;
+	color: orange;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+
+
+}
+footer .social a:hover{
+	color: white;
+
+}
+footer .social a{
+	text-decoration:none;
+	text-align: center;
+	font-size: 30px;
+}
