@@ -362,3 +362,122 @@ footer .social a{
 	text-align: center;
 	font-size: 30px;
 }
+.entertainmen{
+	text-align: center;
+	padding: 50px;
+}
+.entertainment h2{
+	font-size: 35px;
+	text-align: center;
+	padding:10px;
+	font-family:  cosmic,sans-serif;
+	text-transform: uppercase;
+}
+.entertainment .video{
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+.entertainment video{
+	width:100%;
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+.feed{
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+
+}
+.feed h2{
+	font-size: 35px;
+	text-align: center;
+	padding:10px;
+	color: white;
+	font-family:  cosmic,sans-serif;
+	text-transform: uppercase;
+
+}
+.feed .feed_form{
+	text-align: center;
+}
+.feed .feed_form form{
+	padding: 20px;
+
+}
+.feed .feed_form form input{
+	width: 30%;
+	margin:10px;
+	padding: 10px;
+	outline: none;
+	border:none;
+}
+.feed .feed_form form textarea{
+	width: 30%;
+	margin:10px;
+	padding: 8px;
+	outline: none;
+	border:none;
+}
+.feed .feed_form form button{
+	width: 30%;
+	margin:10px;
+	padding: 8px;
+	outline: none;
+	background-color:  #FF5722;
+	color: white;
+	border-color:white;
+	border-radius:10px; 
+}
+.feed .feed_form form button:hover{
+	background-color: black;
+	color: orange;
+	border:none;
+	border-bottom: 4px solid orange;
+	transition: 0.5s;
+}
+.about h1{
+	color: orange;
+}
+.mission h1{
+	color: orange;
+}
+.about{
+	margin-top: 100px;
+	padding:20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+	font-weight: bolder;
+	text-align: center; 
+}
+.mission{margin: 50px;
+
+	padding:20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+	font-weight: bolder;
+	text-align: center; 
+}
+.contact{
+	margin-top: 100px;
+	padding:20px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: cosmic,sans-serif;
+	font-weight: bolder;
+	text-align: center; 
+}
+.contact h2{
+	color:orange;
+}
+.margin{
+	margin: 80px;
+}

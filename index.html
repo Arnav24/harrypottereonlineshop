@@ -17,8 +17,8 @@
 <body>
 	<nav  class="nav nav_top">
 		<div class="logo">
-		<img src="logo.png" height="60px" width="60px">
-	</div>
+		<a href="index.html"><img src="logo.png" height="60px" width="60px">
+	</a></div>
 	<div class="nav_side">
 		<a href="about.html">About us</a>
 		<a href="service.html">Service</a>
@@ -94,8 +94,9 @@
   			</div>
   		</div>
   	</div>
+    <hr>
   	<div class="testi">
-  		<h2>Our Client</h2>>
+  		<h2>Our Client</h2>
   		<div class="testi_container">
   			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -144,6 +145,7 @@
 </div>
     ...
   </div>
+  <hr>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -158,14 +160,30 @@
   			
   		</div>
   	</div>
+    <hr>
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+   
+<div class="entertainment">
+  <h2>Enjoy!!!!</h2>
+  <div class="video">
+  <video controls>
+    <source src="harry video.mp4" type="video/mp4">
+  </video></div>  
+</div>
+<div class="feed">
+      <h2>Write a review</h2>
+      <div class="feed_form">
+        <form name="formname" method="post">
+          <input type="text" name="Name" placeholder="Name"><br>
+          <input type="email" name="Email" placeholder="Email ID"><br>
+          <input type="number" name="Number" placeholder="Contact Number"><br>
+          <textarea rows="5" cols="7" name="Review" placeholder="Write your review" ></textarea> <br>
+          <button type="submit">Submit</button>   
+        </form>
+      </div>
 <footer>
 	<div class="footer_logo">
-		<a href="#"><img src="logo.png" height="60px" width="60px"></a>
+		<a href="index.html"><img src="logo.png" height="60px" width="60px"></a>
 	</div>
 	<div class="pages">
 		<h3>Pages</h3>
@@ -189,6 +207,22 @@
 	</div>
 	<hr>
 	<p>Copyright &copy; 2021 Pottershop. All rights reserved</p>
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script type="text/javascript">
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxRMkIyaqmme306DTxgyxAL3rVwQW0-1WNQ19OwlV8U-notJa_81A07mvkwitoEn30W/exec'
+            const form = document.forms['formname']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for your review"))
+                .catch(error => console.error('Error!', error.message))
+            })</script>
+
+
 
 </footer>
 </body>
